@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Label</key>
+	<string>com.nberradar.weekly</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/opt/anaconda3/bin/python</string>
+		<string>weekly_push.py</string>
+	</array>
+	<key>WorkingDirectory</key>
+	<string>/Users/namo/om/Resources/life/作品/NBER推送平台/nber_radar-v3_v2</string>
+	<key>StartCalendarInterval</key>
+	<dict>
+		<key>Weekday</key>
+		<integer>1</integer>
+		<key>Hour</key>
+		<integer>9</integer>
+		<key>Minute</key>
+		<integer>7</integer>
+	</dict>
+	<key>StandardOutPath</key>
+	<string>/Users/namo/om/Resources/life/作品/NBER推送平台/nber_radar-v3_v2/weekly_push.log</string>
+	<key>StandardErrorPath</key>
+	<string>/Users/namo/om/Resources/life/作品/NBER推送平台/nber_radar-v3_v2/weekly_push.log</string>
+</dict>
+</plist>

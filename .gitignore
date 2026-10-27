@@ -1,0 +1,20 @@
+# API key & database
+api_config.json
+nber_radar.sqlite
+*.log
+
+# Cache & temp
+.nber_cache/index.pkl
+__pycache__/
+*.pyc
+.DS_Store
+
+# Env
+.env
+
+# Data downloaded at runtime
+.nber_cache/
+ref.tsv
+prog.tsv
+abs.tsv
+papers.json
